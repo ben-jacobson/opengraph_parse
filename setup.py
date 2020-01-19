@@ -11,7 +11,7 @@ setuptools.setup(
     description="Parses Open Graph meta tags of web pages and returns a handy JSON object. Use this to generate preview of web pages",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/ben-jacobson/opengraph-parse",
+    url="https://github.com/ben-jacobson/opengraph_parse",
     packages=setuptools.find_packages(),
     classifiers=[
         "Programming Language :: Python :: 3",

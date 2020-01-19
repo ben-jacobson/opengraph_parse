@@ -1,4 +1,4 @@
-# opengraph-parse
+# opengraph_parse
 Ben Jacobson 2020
 
 Parses Open Graph meta tags of web pages. Use this to generate previews of web pages.
