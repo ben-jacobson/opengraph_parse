@@ -8,7 +8,7 @@ setuptools.setup(
     version="0.0.1",
     author="Ben Jacobson",
     author_email="ben_jacobson@live.com",
-    description="Parses Open Graph meta tags of web pages and returns a handy JSON object. Use this to generate preview of web pages",
+    description="Parses Open Graph meta tags of web pages and returns a handy JSON-like object. Use this to generate preview of web pages",
     long_description=long_description,
     long_description_content_type="text/markdown",
     url="https://github.com/ben-jacobson/opengraph_parse",
