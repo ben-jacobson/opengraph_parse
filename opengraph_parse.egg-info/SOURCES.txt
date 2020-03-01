@@ -5,5 +5,4 @@ opengraph_parse/example.py
 opengraph_parse.egg-info/PKG-INFO
 opengraph_parse.egg-info/SOURCES.txt
 opengraph_parse.egg-info/dependency_links.txt
-opengraph_parse.egg-info/requires.txt
 opengraph_parse.egg-info/top_level.txt

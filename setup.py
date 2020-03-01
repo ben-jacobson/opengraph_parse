@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="opengraph_parse", 
-    version="0.0.4",
+    version="0.0.5",
     author="Ben Jacobson",
     author_email="",
     description="Parses Open Graph meta tags of web pages and returns a handy JSON-like object. Use this to generate preview of web pages like you see on social media",
@@ -13,7 +13,6 @@ setuptools.setup(
     long_description_content_type="text/markdown",
     url="https://github.com/ben-jacobson/opengraph_parse",
     packages=setuptools.find_packages(),
-    install_requires = ['bs4', 'requests'],
     classifiers=[
         "Programming Language :: Python :: 3",
         "License :: OSI Approved :: MIT License",
