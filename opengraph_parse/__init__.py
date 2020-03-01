@@ -17,7 +17,7 @@ KNOWN_OPENGRAPH_TAGS = [
     "og:image:alt",
     ]
 
-def parse_page(page_url, tags_to_search = KNOWN_OPENGRAPH_TAGS):
+def parse_page(page_url, tags_to_search = KNOWN_OPENGRAPH_TAGS, fallback_tags = None):
     '''
     Parses a page, returns a JSON style dictionary of all OG tags found on that page. 
 
@@ -41,5 +41,7 @@ def parse_page(page_url, tags_to_search = KNOWN_OPENGRAPH_TAGS):
         new_found_tag = soup.find("meta",  property=og_tag)
         if new_found_tag is not None:
             found_tags[new_found_tag["property"]] = new_found_tag["content"]
+        elif fallback_tags is not None and og_tag in fallback_tags:
+            found_tags[og_tag] = soup.find(fallback_tags[og_tag]).text
 
     return found_tags

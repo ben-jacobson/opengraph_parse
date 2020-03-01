@@ -1,6 +1,6 @@
 Metadata-Version: 2.1
 Name: opengraph-parse
-Version: 0.0.5
+Version: 0.0.6
 Summary: Parses Open Graph meta tags of web pages and returns a handy JSON-like object. Use this to generate preview of web pages like you see on social media
 Home-page: https://github.com/ben-jacobson/opengraph_parse
 Author: Ben Jacobson
